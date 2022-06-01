@@ -1,0 +1,60 @@
+html {
+    background: url(https://www.linkpicture.com/q/mars-2051748_340.webp) no-repeat  center center fixed ; 
+    background-size: cover;
+  }
+
+
+img {
+    display:flex;
+    flex-direction:column;
+    width:584px;
+    height:396px;
+    border-radius: 15px;
+}
+
+#container-curiosity ,#container-spirit ,#container-opportunity {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:2rem;
+}
+
+h1 {
+    font-family: Montserrat ,sans-serif;
+    text-align: center;
+    font-size:5rem;
+}
+p{
+    display:flex;
+    flex-direction: column;
+    justify-content: center; 
+    font-size:1.5rem;
+    font-family:Montserrat,sans-serif;
+    color:white;
+}
+.line-divide    {
+    width: 80%;
+    height: 2px;
+    background-color: #000000;
+    margin: 0 auto;
+    margin-top:2rem;
+    margin-bottom:2rem;
+ }
+ @media only screen and (max-width: 600px) {
+    img {
+        width:240px;
+        height:284px;  
+        margin: 0 auto;
+    }
+    h1 {
+     font-size:3rem;
+    }
+    p{
+        font-size:1rem;   
+    }
+    #container-curiosity ,#container-spirit ,#container-opportunity {
+        flex-direction: column;
+        text-align: center;
+    }
+}
